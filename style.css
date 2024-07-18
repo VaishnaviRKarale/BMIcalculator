@@ -1,8 +1,14 @@
-.body{ background-color: #7f77d6;
-       padding:20px;
-       justify-content: center;
+.body {
+  background-color: #7f77d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
 }
 .container {
+  height: min-content;
+}
+/* .container {
     width: 575px;
     height: 825px;
     padding-left: 30px;
@@ -46,4 +52,4 @@
     padding-top: 25px;
     
   }
-  
+   */
